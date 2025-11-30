@@ -49,8 +49,8 @@ public:
             int src = queries[i][0];
             int dest = queries[i][1];
 
-            bool reachable = mp[dest].contains(src);
-            result[i] = reachable;
+            // bool reachable = mp[dest].contains(src);
+            // result[i] = reachable;
         }
 
         return result;
